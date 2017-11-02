@@ -403,10 +403,10 @@ if __name__ == '__main__':
 # In[19]:
 
 
-# with open('POS.test.out', 'w') as outfile:
-#     for sent in rslt_list:
-#         for pair in sent:
-#             outfile.write('%s/%s ' %pair)
-#         outfile.write('\n')
+    with open('POS.test.out', 'w') as outfile:
+        for sent in rslt_list:
+            for pair in sent:
+                outfile.write('%s/%s ' %pair)
+            outfile.write('\n')
 
 
